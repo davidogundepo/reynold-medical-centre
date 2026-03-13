@@ -12,12 +12,14 @@ export default function Home() {
       <Head>
         <link rel="icon" href="/logo.png" />
       </Head>
-      <main>
+      <main id="top">
         <header className="fixed-header">
           <div className="container header-content">
             <div className="logo-img-wrapper">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/logo.png" alt="Reynold Medical Centre Logo" className="logo-image" />
+              <a href="#top">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/logo.png" alt="Reynold Medical Centre Logo" className="logo-image" style={{cursor: 'pointer'}} />
+              </a>
             </div>
             <nav>
               <ul>
@@ -72,7 +74,7 @@ export default function Home() {
             <div className="about-content">
               <div className="about-image slide-right">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="https://images.unsplash.com/photo-1538108149393-cebb47ccc8b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1632&q=80" alt="Modern Medical Facility" />
+                <img src="https://i.pinimg.com/1200x/ba/f1/29/baf129cb71ea45fab3ff3b664f9f42d5.jpg" alt="Modern Medical Facility" />
               </div>
               <div className="about-text slide-left">
                 <h2 className="section-title">We combine Professionalism with Empathy</h2>
@@ -92,17 +94,17 @@ export default function Home() {
               <div className="team-member slide-up-delay-1">
                 <div className="team-img-wrapper">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="https://images.unsplash.com/photo-1622902046580-2b47f47f5471?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dr. Obasohan Bountiful" />
+                  <img src="https://i.pinimg.com/736x/6d/ce/c7/6dcec7f5c54906c86f0726d1fa163662.jpg" alt="Obasohan Bountiful" />
                 </div>
                 <div className="team-info">
-                  <h3>Dr. Obasohan Bountiful</h3>
+                  <h3>Obasohan Bountiful</h3>
                   <p>Chief Health Care Officer</p>
                 </div>
               </div>
               <div className="team-member slide-up-delay-2">
                 <div className="team-img-wrapper">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dr. Sarah Johnson" />
+                  <img src="https://i.pinimg.com/1200x/c0/e4/24/c0e42455d1cc9efc38fb4b71bf082aeb.jpg" alt="Dr. Sarah Johnson" />
                 </div>
                 <div className="team-info">
                   <h3>Dr. Sarah Johnson</h3>
@@ -112,7 +114,7 @@ export default function Home() {
               <div className="team-member slide-up-delay-3">
                 <div className="team-img-wrapper">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="https://images.unsplash.com/photo-1638202993928-7267aad84c31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dr. Michael Chang" />
+                  <img src="https://i.pinimg.com/736x/e7/d2/c2/e7d2c238fed6d01510ee842b2e55496a.jpg" alt="Dr. Michael Chang" />
                 </div>
                 <div className="team-info">
                   <h3>Dr. Michael Chang</h3>
