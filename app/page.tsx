@@ -1,5 +1,6 @@
 'use client';
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home() {
   const handleFormSubmit = (e: React.FormEvent) => {
@@ -134,7 +135,7 @@ export default function Home() {
                 
                 <div className="contact-item">
                   <div className="contact-icon">📍</div>
-                  <span>25 Allen Avenue, Ikeja, Lagos</span>
+                  <span>Suite 25B, Health Plaza, Allen Avenue, Ikeja, Lagos</span>
                 </div>
                 <div className="contact-item">
                   <div className="contact-icon">📞</div>
@@ -175,6 +176,14 @@ export default function Home() {
               <a href="#services">Services</a>
               <a href="#team">Professionals</a>
               <a href="#contact">Contact</a>
+            </div>
+            
+            <div className="footer-links" style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
+              <Link href="/privacy">Privacy Policy</Link>
+              <span style={{color: '#555'}}>|</span>
+              <Link href="/terms">Terms of Service</Link>
+              <span style={{color: '#555'}}>|</span>
+              <Link href="/disclaimer">Disclaimer</Link>
             </div>
             <p className="copyright">&copy; {new Date().getFullYear()} Reynold Medical Centre. All Rights Reserved.</p>
           </div>
