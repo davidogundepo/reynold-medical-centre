@@ -1,8 +1,13 @@
 'use client';
 import Head from 'next/head';
 import Link from 'next/link';
+import { useState } from 'react';
 
 export default function Home() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
+  const closeMobileMenu = () => setIsMobileMenuOpen(false);
+
   const handleFormSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     alert('Thank you for contacting Reynold Medical Centre. Our staff will respond shortly.');
@@ -16,18 +21,21 @@ export default function Home() {
       <main id="top">
         <header className="fixed-header">
           <div className="container header-content">
-            <div className="logo-img-wrapper">
-              <a href="#top">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/logo.png" alt="Reynold Medical Centre Logo" className="logo-image" style={{cursor: 'pointer'}} />
-              </a>
+            <div className="logo-img-wrapper" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logo.png" alt="Reynold Medical Centre Logo" className="logo-image" style={{cursor: 'pointer'}} />
             </div>
-            <nav>
+
+            <div className={`hamburger-menu ${isMobileMenuOpen ? 'active' : ''}`} onClick={toggleMobileMenu}>
+              <span></span><span></span><span></span>
+            </div>
+
+            <nav className={`main-nav ${isMobileMenuOpen ? 'open' : ''}`}>
               <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#team">Our Professionals</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about" onClick={closeMobileMenu}>About</a></li>
+                <li><a href="#services" onClick={closeMobileMenu}>Services</a></li>
+                <li><a href="#team" onClick={closeMobileMenu}>Professionals</a></li>
+                <li><a href="#contact" onClick={closeMobileMenu}>Contact</a></li>
               </ul>
             </nav>
           </div>
