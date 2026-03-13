@@ -134,7 +134,7 @@ export default function Home() {
                 
                 <div className="contact-item">
                   <div className="contact-icon">📍</div>
-                  <span>Nigeria</span>
+                  <span>Ikeja, Lagos</span>
                 </div>
                 <div className="contact-item">
                   <div className="contact-icon">📞</div>
