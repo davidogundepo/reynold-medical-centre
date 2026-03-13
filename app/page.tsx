@@ -94,30 +94,30 @@ export default function Home() {
               <div className="team-member slide-up-delay-1">
                 <div className="team-img-wrapper">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="https://i.pinimg.com/736x/6d/ce/c7/6dcec7f5c54906c86f0726d1fa163662.jpg" alt="Obasohan Bountiful" />
+                  <img src="https://i.pinimg.com/736x/e7/d2/c2/e7d2c238fed6d01510ee842b2e55496a.jpg" alt="Dr. Olatunde Adeleke" />
                 </div>
                 <div className="team-info">
-                  <h3>Obasohan Bountiful</h3>
+                  <h3>Dr. Olatunde Adeleke</h3>
                   <p>Chief Health Care Officer</p>
                 </div>
               </div>
               <div className="team-member slide-up-delay-2">
                 <div className="team-img-wrapper">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="https://i.pinimg.com/1200x/c0/e4/24/c0e42455d1cc9efc38fb4b71bf082aeb.jpg" alt="Dr. Sarah Johnson" />
+                  <img src="https://i.pinimg.com/736x/6d/ce/c7/6dcec7f5c54906c86f0726d1fa163662.jpg" alt="Dr. Nneka Okafor" />
                 </div>
                 <div className="team-info">
-                  <h3>Dr. Sarah Johnson</h3>
+                  <h3>Dr. Nneka Okafor</h3>
                   <p>Head of Pediatrics</p>
                 </div>
               </div>
               <div className="team-member slide-up-delay-3">
                 <div className="team-img-wrapper">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="https://i.pinimg.com/736x/e7/d2/c2/e7d2c238fed6d01510ee842b2e55496a.jpg" alt="Dr. Michael Chang" />
+                  <img src="https://i.pinimg.com/1200x/c0/e4/24/c0e42455d1cc9efc38fb4b71bf082aeb.jpg" alt="Dr. Zainab Usman" />
                 </div>
                 <div className="team-info">
-                  <h3>Dr. Michael Chang</h3>
+                  <h3>Dr. Zainab Usman</h3>
                   <p>Cardiologist</p>
                 </div>
               </div>
