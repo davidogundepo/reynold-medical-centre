@@ -104,10 +104,10 @@ export default function Home() {
               <div className="team-member slide-up-delay-2">
                 <div className="team-img-wrapper">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="https://i.pinimg.com/736x/6d/ce/c7/6dcec7f5c54906c86f0726d1fa163662.jpg" alt="Dr. Nneka Okafor" />
+                  <img src="https://i.pinimg.com/736x/6d/ce/c7/6dcec7f5c54906c86f0726d1fa163662.jpg" alt="Obasohan Bountiful" />
                 </div>
                 <div className="team-info">
-                  <h3>Dr. Nneka Okafor</h3>
+                  <h3>Obasohan Bountiful</h3>
                   <p>Head of Pediatrics</p>
                 </div>
               </div>
