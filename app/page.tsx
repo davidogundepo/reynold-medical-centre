@@ -134,7 +134,7 @@ export default function Home() {
                 
                 <div className="contact-item">
                   <div className="contact-icon">📍</div>
-                  <span>Ikeja, Lagos</span>
+                  <span>25 Allen Avenue, Ikeja, Lagos</span>
                 </div>
                 <div className="contact-item">
                   <div className="contact-icon">📞</div>
