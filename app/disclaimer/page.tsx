@@ -39,10 +39,25 @@ export default function Disclaimer() {
         </section>
 
         <footer>
-          <div className="container" style={{ textAlign: 'center' }}>
+          <div className="container">
             <div className="footer-logo-wrapper">
                {/* eslint-disable-next-line @next/next/no-img-element */}
                <img src="/logo.png" alt="Reynold Medical Centre Logo" className="footer-logo-img" />
+            </div>
+            <div className="footer-links">
+              <Link href="/">Home</Link>
+              <Link href="/#about">About</Link>
+              <Link href="/#services">Services</Link>
+              <Link href="/#team">Professionals</Link>
+              <Link href="/#contact">Contact</Link>
+            </div>
+            
+            <div className="footer-links" style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
+              <Link href="/privacy">Privacy Policy</Link>
+              <span style={{color: '#555'}}>|</span>
+              <Link href="/terms">Terms of Service</Link>
+              <span style={{color: '#555'}}>|</span>
+              <Link href="/disclaimer">Disclaimer</Link>
             </div>
             <p className="copyright">&copy; {new Date().getFullYear()} Reynold Medical Centre. All Rights Reserved.</p>
           </div>

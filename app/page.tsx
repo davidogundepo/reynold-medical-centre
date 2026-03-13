@@ -116,7 +116,7 @@ export default function Home() {
                   <img src="https://i.pinimg.com/736x/6d/ce/c7/6dcec7f5c54906c86f0726d1fa163662.jpg" alt="Obasohan Bountiful" />
                 </div>
                 <div className="team-info">
-                  <h3>Obasohan Bountiful</h3>
+                  <h3>Dr. Obasohan Bountiful</h3>
                   <p>Head of Pediatrics</p>
                 </div>
               </div>
